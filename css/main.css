@@ -1,0 +1,196 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+div,
+li {
+  box-sizing: border-box;
+}
+
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, 0.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: "Noto Serif JP", serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.key h1 {
+  font-size: 2.5rem;
+}
+.section_title {
+  font-family: "Noto Serif JP", serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu_title {
+  display: inline-block;
+  font-family: "Noto Serif JP", serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  width: 20%;
+  height: 98%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.concept_contents {
+  display: flex;
+}
+.concept_contents p {
+  width: 60%;
+}
+.concept_contents img {
+  width: 35%;
+  object-fit: cover;
+}
+.menu_section {
+  background: center/cover no-repeat fixed url("../images/sample_menu_bg.jpg");
+}
+.flex {
+  display: flex;
+}
+.recommended_menu {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.recommended_menu li {
+  width: 49%;
+  flex-direction: row-reverse;
+}
+.recommended_menu div {
+  background-color: #fff;
+  position: relative;
+  padding: 10px;
+}
+.menu_name {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+}
+.caption {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 0.8rem;
+}
+.recommended_menu li img {
+  width: 55%;
+  object-fit: cover;
+}
+.price {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  text-align: end;
+  align-self: flex-end;
+}
+
+.coffee_menu {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background: white;
+  padding: 20px;
+}
+.coffee_menu li {
+  width: 49%;
+  height: 49%;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+.coffee_menu li div {
+  width: 80%;
+  position: relative;
+  padding: 10px;
+}
+
+.access dt{
+  width: 80px;
+  min-width: 80px;
+}
+.access iframe{
+  width: 100%;
+}
+
+footer{
+  flex-direction: column;
+  background: #251e19;
+  color: white;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+}
+footer img{
+  height: 30px;
+}
+footer a{
+color: white;
+text-decoration: none;
+}
+footer ul{
+  justify-content: center;
+  align-items: center;
+}
+footer li{
+  list-style:none;
+  margin:0 10px 0;
+}
+footer p{
+  font-size: 0.6rem;
+  margin-top:5px;
+}
